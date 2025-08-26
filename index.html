@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Layouts & Responsive Web Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>My Responsive Webpage</h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Layout: Grid (Content + Sidebar) -->
+  <main class="container">
+    <!-- Content Area -->
+    <section class="content">
+      <h2>Welcome to My Page</h2>
+      <p>
+        This is a demonstration of modern CSS layout techniques. The main content area and sidebar are arranged using <strong>CSS Grid</strong>, while the navigation bar uses <strong>Flexbox</strong>. Resize the window to see the responsive behavior.
+      </p>
+
+      <!-- Flexbox Card Layout -->
+      <div class="card-container">
+        <article class="card">Card 1</article>
+        <article class="card">Card 2</article>
+        <article class="card">Card 3</article>
+      </div>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>Sidebar</h3>
+      <ul>
+        <li>Useful Link 1</li>
+        <li>Useful Link 2</li>
+        <li>Useful Link 3</li>
+        <li>Useful Link 4</li>
+      </ul>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 My Responsive Webpage</p>
+  </footer>
+</body>
+</html>
